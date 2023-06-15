@@ -1,0 +1,629 @@
+a,body,div,html,img {
+    box-sizing: border-box
+}
+
+a {
+    line-height: 1.5
+}
+
+body {
+    margin: 0;
+    min-height: 90vh;
+    background-color: transparent;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color:#121212
+    }
+}
+
+code {
+    font-family: source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace
+}
+
+.font-digit {
+    font-family: "Digital-7 Mono"
+}
+
+.text-center {
+    text-align: center
+}
+
+@font-face {
+    font-family: "Digital-7 Mono";
+    src: url("../static/digital-7-mono.ae951a18.ttf") format("truetype")
+}
+
+.hot-color {
+    -webkit-filter: saturate(110%);
+    filter: saturate(110%)
+}
+
+.cold-color {
+    -webkit-filter: saturate(90%);
+    filter: saturate(90%)
+}
+
+.ac-temperature {
+    text-shadow: 0 0 2px rgba(0,0,0,.1)
+}
+
+.hidden {
+    display: none
+}
+
+
+.css-cuefkz-MuiContainer-root {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.css-17sgzu2-MuiTypography-root {
+    margin: 0px 0px 0.35em;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.css-wusbkr {
+    background-color: transparent;
+    padding-top: 32px;
+}
+.css-12wjmzy-MuiTypography-root {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.css-i4bv87-MuiSvgIcon-root {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+.jss1 {
+    margin: 24px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-1f428mh {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+    position: relative;
+}
+.jss2 {
+    border-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.css-ov3lxq {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    color: rgb(204, 204, 204);
+}
+.css-149xwtl-MuiTypography-root {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    text-align: center;
+}
+.css-14ldhpp-MuiTypography-root {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    text-align: left;
+}
+.ac-temperature {
+    text-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+.css-mraimo {
+    margin-top: 8px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.css-1y058n3 {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    top: 130px;
+    right: 10px;
+}
+.jss8 {
+    background-color: rgb(224, 224, 224);
+}
+.jss8.active {
+    background-color: rgb(56, 247, 9);
+}
+.css-zr6tlc {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+/*空调标签*/
+.css-1wt0jtr {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 70px;
+    width: 50px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.jss6 {
+    background-color: #4ea5f5;
+}
+
+.css-bmbyv {
+    margin: 0px 2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+}
+.css-bslt8v {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px 8px;
+    height: 28px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.css-15fev7r-MuiGrid-root {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.css-vpg1qk {
+    background-color: green;
+    height: 3px;
+    width: 40%;
+}
+.css-694q0m {
+    background-color: green;
+    height: 3px;
+    width: 10%;
+}
+.css-oqo5g9 {
+    margin-top: 2px;
+    background-color: lightgreen;
+    height: 3px;
+    width: 50%;
+}
+.css-1p5thl9 {
+    margin-top: 2px;
+    background-color: rgb(255, 193, 7);
+    height: 3px;
+    width: 60%;
+}
+.css-54op00 {
+    margin-top: 2px;
+    background-color: orange;
+    height: 3px;
+    width: 70%;
+}
+.css-1xks341 {
+    margin-top: 2px;
+    background-color: red;
+    height: 3px;
+    width: 80%;
+}
+.css-1cxjp41 {
+    margin-bottom: 2px;
+    padding-top: 0.8px;
+    height: 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.css-1romlnn {
+    margin: 2px 0.8px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: black;
+}
+.css-197fynd {
+    margin-top: 0.8px;
+    margin-bottom: 0.8px;
+    border-top: 1px solid;
+    height: 0%;
+    width: 100%;
+}
+.css-1pnhetw {
+    margin: 2px 0.8px;
+    width: 1.5px;
+    height: 1.5px;
+    border-radius: 50%;
+    background-color: black;
+}
+.css-1rpvacm {
+    height: 3px;
+    margin-left: 40%;
+}
+.css-eex56h {
+    margin: 0px 0.8px;
+    width: 1.2px;
+    height: 1.2px;
+    border-radius: 50%;
+    background-color: black;
+}
+.css-143pxzb {
+    margin: 0px 0.8px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
+/* 吹风 */
+.css-r0grml {
+    margin-top: 24px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+	opacity: 1;
+	transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.active{
+	opacity: 1;
+	transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.css-1eyvhfn {
+    background-color: rgb(187, 187, 187);
+    width: 5px;
+    height: 40px;
+}
+.css-1n4rt11 {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(187, 187, 187);
+    width: 5px;
+    height: 40px;
+}
+/* 更多小玩意 */
+.css-1icgf7x {
+    margin-top: 16px;
+}
+.css-1g0jmg2-MuiButtonBase-root-MuiButton-root {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+    color: rgb(63, 81, 181);
+}
+.css-8xplcm-MuiButton-label {
+    width: 100%;
+    display: inherit;
+    -webkit-box-align: inherit;
+    align-items: inherit;
+    -webkit-box-pack: inherit;
+    justify-content: inherit;
+}
+.css-8je8zh-MuiTouchRipple-root {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+}
+/* 遥控器 */
+.css-rxkzja {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-mv5a4t-MuiButtonBase-root-MuiFab-root {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-height: 36px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+    padding: 0px;
+    min-width: 0px;
+    width: 56px;
+    height: 56px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 81, 181);
+}
+.css-110lfi1-MuiFab-label {
+    width: 100%;
+    display: inherit;
+    -webkit-box-align: inherit;
+    align-items: inherit;
+    -webkit-box-pack: inherit;
+    justify-content: inherit;
+}
+
+.css-y80q2t-MuiButtonBase-root-MuiFab-root {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-height: 36px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+    padding: 0px;
+    min-width: 0px;
+    width: 56px;
+    height: 56px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(76, 175, 80);
+}
+.css-12p3sqn-MuiButtonBase-root-MuiFab-root {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-height: 36px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+    padding: 0px;
+    min-width: 0px;
+    width: 56px;
+    height: 56px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(224, 224, 224);
+}
+
+.jss9 {
+    margin: 8px;
+}
+.css-1vl95ex-MuiTypography-root {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.css-lf7ukq-MuiTypography-root-MuiLink-root {
+    margin: 0px;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 弹出提示 */
+.css-cpgvjg-MuiSnackbar-root {
+    z-index: 1400;
+    position: fixed;
+    display: flex;
+    left: 8px;
+    right: 8px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    bottom: 8px;
+}
+.css-kge0x4-MuiPaper-root-MuiAlert-root {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    border-radius: 4px;
+    background-color: rgb(253, 236, 234);
+    display: flex;
+    padding: 6px 16px;
+    color: rgb(97, 26, 21);
+}
+.css-1ytlwq5-MuiAlert-icon {
+    margin-right: 12px;
+    padding: 7px 0px;
+    display: flex;
+    font-size: 22px;
+    opacity: 0.9;
+}
+.css-kge0x4-MuiPaper-root-MuiAlert-root .MuiAlert-icon {
+    color: rgb(244, 67, 54);
+}
+.css-acap47-MuiAlert-message {
+    padding: 8px 0px;
+}
+.css-ki1hdl-MuiAlert-action {
+    display: flex;
+    align-items: flex-start;
+    padding: 4px 0px 0px 16px;
+    margin-left: auto;
+    margin-right: -8px;
+}
+.css-1pthbtg-MuiButtonBase-root-MuiIconButton-root {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-align: center;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: visible;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: inherit;
+    padding: 3px;
+    font-size: 1.125rem;
+}
+.css-ptiqhd-MuiSvgIcon-root {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.25rem;
+}
+.css-1vooibu-MuiSvgIcon-root {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: inherit;
+}
+
+/* 业务 */
+#tips{
+	display: none;
+}
+#temperature{
+	display: none;
+}
+#wind{
+	opacity: 0;
+}
+#wind.active{
+	opacity: 1;
+}
+#poweron.active{
+	background-color: rgb(245, 0, 87);
+}
+#poweron.active1{
+	background-color: rgb(197, 17, 98);
+}
+.btnActive{
+	animation: ripple-out 1s;
+}
+ @keyframes ripple-out{
+	from {
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px -1px, rgba(0, 0, 0, 0.24) 0px 6px 10px 0px, rgba(0, 0, 0, 0.4) 0px 1px 18px 0px;
+	}
+	to {
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+	}
+}
