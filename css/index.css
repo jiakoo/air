@@ -16,11 +16,11 @@ body {
 	background: #fff;
 }
 
-@media(prefers-color-scheme: dark) {
+/* @media(prefers-color-scheme: dark) {
     body {
         background-color:#121212
     }
-}
+} */
 
 code {
     font-family: source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace
